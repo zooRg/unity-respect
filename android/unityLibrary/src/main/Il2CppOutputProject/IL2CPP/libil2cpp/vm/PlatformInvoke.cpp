@@ -41,35 +41,31 @@ namespace vm
         if (function != NULL)
             return function;
 
-        Baselib_DynamicLibrary_Handle dynamicLibrary = Baselib_DynamicLibrary_Handle_Invalid;
-        std::string detailedLoadError;
+        void* dynamicLibrary = NULL;
         if (utils::VmStringUtils::CaseSensitiveEquals(il2cpp::utils::StringUtils::NativeStringToUtf8(pinvokeArgs.moduleName.Str()).c_str(), "__InternalDynamic"))
-            dynamicLibrary = os::LibraryLoader::LoadDynamicLibrary(il2cpp::utils::StringView<Il2CppNativeChar>::Empty(), detailedLoadError);
+            dynamicLibrary = os::LibraryLoader::LoadDynamicLibrary(il2cpp::utils::StringView<Il2CppNativeChar>::Empty());
         else
-            dynamicLibrary = os::LibraryLoader::LoadDynamicLibrary(pinvokeArgs.moduleName, detailedLoadError);
+            dynamicLibrary = os::LibraryLoader::LoadDynamicLibrary(pinvokeArgs.moduleName);
 
-        if (dynamicLibrary == Baselib_DynamicLibrary_Handle_Invalid)
+        if (dynamicLibrary == NULL)
         {
-            std::string message;
-            message += "Unable to load DLL '";
-            message += il2cpp::utils::StringUtils::NativeStringToUtf8(pinvokeArgs.moduleName.Str());
-            message += "'. Tried the load the following dynamic libraries: ";
-            message += detailedLoadError;
-            Exception::Raise(Exception::GetDllNotFoundException(message.c_str()));
+            std::basic_string<Il2CppNativeChar> message;
+            message += IL2CPP_NATIVE_STRING("Unable to load DLL '");
+            message += pinvokeArgs.moduleName.Str();
+            message += IL2CPP_NATIVE_STRING("': The specified module could not be found.");
+            Exception::Raise(Exception::GetDllNotFoundException(il2cpp::utils::StringUtils::NativeStringToUtf8(message).c_str()));
         }
 
-        std::string detailedGetFunctionError;
-        function = os::LibraryLoader::GetFunctionPointer(dynamicLibrary, pinvokeArgs, detailedGetFunctionError);
+        function = os::LibraryLoader::GetFunctionPointer(dynamicLibrary, pinvokeArgs);
         if (function == NULL)
         {
-            std::string message;
-            message += "Unable to find an entry point named '";
-            message += pinvokeArgs.entryPoint.Str();
-            message += "' in '";
-            message += il2cpp::utils::StringUtils::NativeStringToUtf8(pinvokeArgs.moduleName.Str());
-            message += "'. Tried the following entry points: ";
-            message += detailedGetFunctionError;
-            Exception::Raise(Exception::GetEntryPointNotFoundException(message.c_str()));
+            std::basic_string<Il2CppNativeChar> message;
+            message += IL2CPP_NATIVE_STRING("Unable to find an entry point named '");
+            message += il2cpp::utils::StringUtils::Utf8ToNativeString(pinvokeArgs.entryPoint.Str());
+            message += IL2CPP_NATIVE_STRING("' in '");
+            message += pinvokeArgs.moduleName.Str();
+            message += IL2CPP_NATIVE_STRING("'.");
+            Exception::Raise(Exception::GetEntryPointNotFoundException(il2cpp::utils::StringUtils::NativeStringToUtf8(message).c_str()));
         }
 
         return function;

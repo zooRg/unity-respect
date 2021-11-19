@@ -159,7 +159,7 @@ namespace vm
         if (definition == NULL)
         {
             if (throwOnError)
-                vm::Exception::Raise(vm::Exception::GetMaximumNestedGenericsException());
+                vm::Exception::Raise(vm::Exception::GetMaxmimumNestedGenericsException());
             return NULL;
         }
 
@@ -188,7 +188,6 @@ namespace vm
             klass->this_arg.type = klass->byval_arg.type = IL2CPP_TYPE_GENERICINST;
             klass->this_arg.data.generic_class = klass->byval_arg.data.generic_class = gclass;
             klass->this_arg.byref = true;
-            klass->byval_arg.valuetype = genericTypeDefinition->byval_arg.valuetype;
 
             klass->event_count = definition->event_count;
             klass->field_count = definition->field_count;
@@ -197,6 +196,7 @@ namespace vm
             klass->property_count = definition->property_count;
 
             klass->enumtype = definition->enumtype;
+            klass->valuetype = definition->valuetype;
             klass->element_class = klass->castClass = klass;
 
             klass->has_cctor = definition->has_cctor;
@@ -234,7 +234,7 @@ namespace vm
 
     bool GenericClass::IsValueType(Il2CppGenericClass *gclass)
     {
-        return GetTypeDefinition(gclass)->byval_arg.valuetype;
+        return GetTypeDefinition(gclass)->valuetype;
     }
 } /* namespace vm */
 } /* namespace il2cpp */

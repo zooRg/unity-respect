@@ -85,7 +85,7 @@ namespace vm
     Il2CppObject* Object::Box(Il2CppClass *typeInfo, void* val)
     {
         Class::Init(typeInfo);
-        if (!typeInfo->byval_arg.valuetype)
+        if (!typeInfo->valuetype)
             return *(Il2CppObject**)val;
 
         if (Class::IsNullable(typeInfo))

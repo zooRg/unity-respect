@@ -860,14 +860,6 @@
           }
         }
       },
-      "Microsoft.Bcl.HashCode/1.1.0": {
-        "runtime": {
-          "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "4.700.19.56404"
-          }
-        }
-      },
       "Microsoft.NETCore.Platforms/3.0.0-preview6.19303.8": {},
       "Microsoft.Win32.Registry/4.6.0-preview6.19303.8": {
         "dependencies": {
@@ -891,9 +883,6 @@
         }
       },
       "monolinker/1.0.0": {
-        "dependencies": {
-          "Microsoft.Bcl.HashCode": "1.1.0"
-        },
         "runtime": {
           "monolinker.dll": {}
         }
@@ -990,13 +979,6 @@
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
-    },
-    "Microsoft.Bcl.HashCode/1.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-J2G1k+u5unBV+aYcwxo94ip16Rkp65pgWFb0R6zwJipzWNMgvqlWeuI7/+R+e8bob66LnSG+llLJ+z8wI94cHg==",
-      "path": "microsoft.bcl.hashcode/1.1.0",
-      "hashPath": "microsoft.bcl.hashcode.1.1.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.0.0-preview6.19303.8": {
       "type": "package",

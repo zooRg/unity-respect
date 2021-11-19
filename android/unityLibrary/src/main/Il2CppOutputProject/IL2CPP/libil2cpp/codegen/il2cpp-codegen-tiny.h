@@ -415,7 +415,7 @@ NORETURN inline void il2cpp_codegen_raise_exception(Exception_t* ex, RuntimeMeth
     IL2CPP_UNREACHABLE;
 }
 
-NORETURN inline void il2cpp_codegen_raise_exception(const char* message)
+NORETURN inline void il2cpp_codegen_raise_execution_engine_exception(const char* message)
 {
     tiny::vm::Exception::Raise(message);
     IL2CPP_UNREACHABLE;

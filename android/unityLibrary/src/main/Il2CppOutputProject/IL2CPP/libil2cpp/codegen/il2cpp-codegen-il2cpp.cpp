@@ -11,6 +11,7 @@
 #include "vm/Class.h"
 #include "vm/LastError.h"
 #include "vm/ThreadPoolMs.h"
+#include "vm/ThreadPool.h"
 #include "vm/InternalCalls.h"
 #include "vm/Reflection.h"
 #include "vm/MetadataCache.h"
@@ -165,11 +166,6 @@ void il2cpp_codegen_raise_execution_engine_exception(const RuntimeMethod* method
     il2cpp::vm::Runtime::AlwaysRaiseExecutionEngineException(method);
 }
 
-void il2cpp_codegen_raise_execution_engine_exception_missing_virtual(const RuntimeMethod* method)
-{
-    il2cpp::vm::Runtime::AlwaysRaiseExecutionEngineExceptionOnVirtualCall(method);
-}
-
 void il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(const RuntimeMethod* method)
 {
     il2cpp::vm::Runtime::RaiseExecutionEngineExceptionIfMethodIsNotFound(method);
@@ -315,7 +311,7 @@ Exception_t* il2cpp_codegen_get_missing_method_exception(const char* msg)
 
 Exception_t* il2cpp_codegen_get_maximum_nested_generics_exception()
 {
-    return (Exception_t*)il2cpp::vm::Exception::GetMaximumNestedGenericsException();
+    return (Exception_t*)il2cpp::vm::Exception::GetMaxmimumNestedGenericsException();
 }
 
 Exception_t* il2cpp_codegen_get_index_out_of_range_exception()
@@ -714,8 +710,6 @@ const char* il2cpp_codegen_get_field_data(RuntimeField* field)
 
 #if IL2CPP_TINY_DEBUGGER
 
-#include "vm/Image.h"
-
 MulticastDelegate_t* il2cpp_codegen_create_combined_delegate(Type_t* type, Il2CppArray* delegates, int delegateCount)
 {
     Il2CppClass* klass = il2cpp::vm::Class::FromSystemType((Il2CppReflectionType*)type);
@@ -768,12 +762,6 @@ bool il2cpp_codegen_type_is_pointer(Type_t* t)
 {
     Il2CppClass* klass = il2cpp::vm::Class::FromSystemType((Il2CppReflectionType*)t);
     return il2cpp::vm::Class::GetType(klass)->type == IL2CPP_TYPE_PTR;
-}
-
-NORETURN void il2cpp_codegen_raise_exception(const char* message)
-{
-    il2cpp::vm::Exception::Raise(il2cpp::vm::Exception::FromNameMsg(il2cpp::vm::Image::GetCorlib(), "System", "Exception", message));
-    IL2CPP_UNREACHABLE;
 }
 
 #endif

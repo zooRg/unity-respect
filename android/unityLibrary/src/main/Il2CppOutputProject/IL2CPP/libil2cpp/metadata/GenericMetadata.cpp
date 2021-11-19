@@ -127,8 +127,6 @@ namespace metadata
             case IL2CPP_TYPE_GENERICINST:
             {
                 const Il2CppGenericInst* inst = type->data.generic_class->context.class_inst;
-                if (inst == NULL)
-                    return NULL; // This is a generic type that was too deeply nested to generate
 
                 Il2CppTypeVector types;
                 for (uint32_t i = 0; i < inst->type_argc; i++)

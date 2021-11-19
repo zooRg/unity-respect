@@ -240,7 +240,7 @@ typedef struct ParameterInfo
     const Il2CppType* parameter_type;
 } ParameterInfo;
 
-typedef void (*InvokerMethod)(Il2CppMethodPointer, const MethodInfo*, void*, void**, void*);
+typedef void* (*InvokerMethod)(Il2CppMethodPointer, const MethodInfo*, void*, void**);
 
 typedef enum MethodVariableKind
 {
@@ -429,7 +429,7 @@ typedef struct Il2CppClass
 
     // Remaining fields are always valid except where noted
     Il2CppMetadataGenericContainerHandle genericContainerHandle;
-    uint32_t instance_size;
+    uint32_t instance_size; // valid when size_inited is true
     uint32_t actualSize;
     uint32_t element_size;
     int32_t native_size;
@@ -459,11 +459,13 @@ typedef struct Il2CppClass
     // Use Class::UpdateInitializedAndNoError to update
     uint8_t initialized_and_no_error : 1;
 
+    uint8_t valuetype : 1;
     uint8_t initialized : 1;
     uint8_t enumtype : 1;
     uint8_t is_generic : 1;
-    uint8_t has_references : 1;
+    uint8_t has_references : 1; // valid when size_inited is true
     uint8_t init_pending : 1;
+    uint8_t size_init_pending : 1;
     uint8_t size_inited : 1;
     uint8_t has_finalize : 1;
     uint8_t has_cctor : 1;

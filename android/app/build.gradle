@@ -62,8 +62,8 @@ flutter {
     source '../..'
 }
 
+
 dependencies {
     implementation project(':unityLibrary')
-    implementation(name: 'unity-classes', ext:'jar')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }

@@ -62,7 +62,7 @@ namespace vm
                 IL2CPP_ASSERT(arrayOutArgsIndex < arrayOutArgs->max_length);
                 Il2CppClass *paramClass = il2cpp_class_from_type(paramType);
 
-                if (paramClass->byval_arg.valuetype)
+                if (paramClass->valuetype)
                 {
                     IL2CPP_ASSERT(paramClass->native_size > 0 && "EndInvoke: Invalid native_size found when trying to copy a value type in the out_args.");
 
@@ -113,7 +113,7 @@ namespace vm
         il2cpp::gc::WriteBarrier::GenericStore(out_args, (Il2CppObject*)arr);
         il2cpp::gc::WriteBarrier::GenericStore(exc, NULL);
 
-        ret = vm::Runtime::InvokeArray(method, method->klass->byval_arg.valuetype ? il2cpp_object_unbox(target) : target, method->parameters_count > 0 ? msg->args : NULL, (Il2CppException**)exc);
+        ret = vm::Runtime::InvokeArray(method, method->klass->valuetype ? il2cpp_object_unbox(target) : target, method->parameters_count > 0 ? msg->args : NULL, (Il2CppException**)exc);
 
         for (i = 0, j = 0; i < method->parameters_count; i++)
         {

@@ -1,0 +1,1782 @@
+newmtl newColor0
+
+d 1.0
+Ka 0.2 0.8 0.2
+Kd 0.2 0.8 0.2
+Ns 2
+newmtl newColor1
+
+d 1.0
+Ka 0.43 0.79 0.13
+Kd 0.43 0.79 0.13
+Ns 2
+newmtl newColor2
+
+d 1.0
+Ka 0.66 0.77 0.07
+Kd 0.66 0.77 0.07
+Ns 2
+newmtl newColor3
+
+d 1.0
+Ka 0.93 0.69 0.0
+Kd 0.93 0.69 0.0
+Ns 2
+newmtl newColor4
+
+d 1.0
+Ka 0.69 0.74 0.07
+Kd 0.69 0.74 0.07
+Ns 2
+newmtl newColor5
+
+d 1.0
+Ka 0.71 0.72 0.07
+Kd 0.71 0.72 0.07
+Ns 2
+newmtl newColor6
+
+d 1.0
+Ka 0.68 0.75 0.07
+Kd 0.68 0.75 0.07
+Ns 2
+newmtl newColor7
+
+d 1.0
+Ka 0.96 0.66 0.0
+Kd 0.96 0.66 0.0
+Ns 2
+newmtl newColor8
+
+d 1.0
+Ka 0.93 0.72 0.0
+Kd 0.93 0.72 0.0
+Ns 2
+newmtl newColor9
+
+d 1.0
+Ka 0.68 0.76 0.07
+Kd 0.68 0.76 0.07
+Ns 2
+newmtl newColor10
+
+d 1.0
+Ka 0.98 0.64 0.0
+Kd 0.98 0.64 0.0
+Ns 2
+newmtl newColor11
+
+d 1.0
+Ka 0.96 0.69 0.0
+Kd 0.96 0.69 0.0
+Ns 2
+newmtl newColor12
+
+d 1.0
+Ka 0.99 0.56 0.0
+Kd 0.99 0.56 0.0
+Ns 2
+newmtl newColor13
+
+d 1.0
+Ka 0.45 0.77 0.13
+Kd 0.45 0.77 0.13
+Ns 2
+newmtl newColor14
+
+d 1.0
+Ka 1.0 0.57 0.0
+Kd 1.0 0.57 0.0
+Ns 2
+newmtl newColor15
+
+d 1.0
+Ka 0.98 0.66 0.0
+Kd 0.98 0.66 0.0
+Ns 2
+newmtl newColor16
+
+d 1.0
+Ka 1.0 0.59 0.0
+Kd 1.0 0.59 0.0
+Ns 2
+newmtl newColor17
+
+d 1.0
+Ka 0.7 0.74 0.07
+Kd 0.7 0.74 0.07
+Ns 2
+newmtl newColor18
+
+d 1.0
+Ka 0.96 0.67 0.0
+Kd 0.96 0.67 0.0
+Ns 2
+newmtl newColor19
+
+d 1.0
+Ka 1.0 0.49 0.0
+Kd 1.0 0.49 0.0
+Ns 2
+newmtl newColor20
+
+d 1.0
+Ka 1.0 0.47 0.0
+Kd 1.0 0.47 0.0
+Ns 2
+newmtl newColor21
+
+d 1.0
+Ka 1.0 0.52 0.0
+Kd 1.0 0.52 0.0
+Ns 2
+newmtl newColor22
+
+d 1.0
+Ka 1.0 0.43 0.0
+Kd 1.0 0.43 0.0
+Ns 2
+newmtl newColor23
+
+d 1.0
+Ka 1.0 0.44 0.0
+Kd 1.0 0.44 0.0
+Ns 2
+newmtl newColor24
+
+d 1.0
+Ka 0.98 0.62 0.0
+Kd 0.98 0.62 0.0
+Ns 2
+newmtl newColor25
+
+d 1.0
+Ka 1.0 0.53 0.0
+Kd 1.0 0.53 0.0
+Ns 2
+newmtl newColor26
+
+d 1.0
+Ka 1.0 0.37 0.0
+Kd 1.0 0.37 0.0
+Ns 2
+newmtl newColor27
+
+d 1.0
+Ka 1.0 0.39 0.0
+Kd 1.0 0.39 0.0
+Ns 2
+newmtl newColor28
+
+d 1.0
+Ka 1.0 0.34 0.0
+Kd 1.0 0.34 0.0
+Ns 2
+newmtl newColor29
+
+d 1.0
+Ka 1.0 0.36 0.0
+Kd 1.0 0.36 0.0
+Ns 2
+newmtl newColor30
+
+d 1.0
+Ka 1.0 0.32 0.0
+Kd 1.0 0.32 0.0
+Ns 2
+newmtl newColor31
+
+d 1.0
+Ka 1.0 0.28 0.0
+Kd 1.0 0.28 0.0
+Ns 2
+newmtl newColor32
+
+d 1.0
+Ka 1.0 0.26 0.0
+Kd 1.0 0.26 0.0
+Ns 2
+newmtl newColor33
+
+d 1.0
+Ka 0.97 0.62 0.0
+Kd 0.97 0.62 0.0
+Ns 2
+newmtl newColor34
+
+d 1.0
+Ka 1.0 0.48 0.0
+Kd 1.0 0.48 0.0
+Ns 2
+newmtl newColor35
+
+d 1.0
+Ka 1.0 0.41 0.0
+Kd 1.0 0.41 0.0
+Ns 2
+newmtl newColor36
+
+d 1.0
+Ka 1.0 0.18 0.0
+Kd 1.0 0.18 0.0
+Ns 2
+newmtl newColor37
+
+d 1.0
+Ka 1.0 0.15 0.0
+Kd 1.0 0.15 0.0
+Ns 2
+newmtl newColor38
+
+d 1.0
+Ka 1.0 0.14 0.0
+Kd 1.0 0.14 0.0
+Ns 2
+newmtl newColor39
+
+d 1.0
+Ka 1.0 0.21 0.0
+Kd 1.0 0.21 0.0
+Ns 2
+newmtl newColor40
+
+d 1.0
+Ka 1.0 0.11 0.0
+Kd 1.0 0.11 0.0
+Ns 2
+newmtl newColor41
+
+d 1.0
+Ka 1.0 0.16 0.0
+Kd 1.0 0.16 0.0
+Ns 2
+newmtl newColor42
+
+d 1.0
+Ka 1.0 0.29 0.0
+Kd 1.0 0.29 0.0
+Ns 2
+newmtl newColor43
+
+d 1.0
+Ka 1.0 0.25 0.0
+Kd 1.0 0.25 0.0
+Ns 2
+newmtl newColor44
+
+d 1.0
+Ka 1.0 0.05 0.0
+Kd 1.0 0.05 0.0
+Ns 2
+newmtl newColor45
+
+d 1.0
+Ka 1.0 0.19 0.0
+Kd 1.0 0.19 0.0
+Ns 2
+newmtl newColor46
+
+d 1.0
+Ka 1.0 0.12 0.0
+Kd 1.0 0.12 0.0
+Ns 2
+newmtl newColor47
+
+d 1.0
+Ka 1.0 0.1 0.0
+Kd 1.0 0.1 0.0
+Ns 2
+newmtl newColor48
+
+d 1.0
+Ka 1.0 0.07 0.0
+Kd 1.0 0.07 0.0
+Ns 2
+newmtl newColor49
+
+d 1.0
+Ka 1.0 0.09 0.0
+Kd 1.0 0.09 0.0
+Ns 2
+newmtl newColor50
+
+d 1.0
+Ka 1.0 0.42 0.0
+Kd 1.0 0.42 0.0
+Ns 2
+newmtl newColor51
+
+d 1.0
+Ka 1.0 0.31 0.0
+Kd 1.0 0.31 0.0
+Ns 2
+newmtl newColor52
+
+d 1.0
+Ka 1.0 0.5 0.0
+Kd 1.0 0.5 0.0
+Ns 2
+newmtl newColor53
+
+d 1.0
+Ka 1.0 0.08 0.0
+Kd 1.0 0.08 0.0
+Ns 2
+newmtl newColor54
+
+d 1.0
+Ka 1.0 0.2 0.0
+Kd 1.0 0.2 0.0
+Ns 2
+newmtl newColor55
+
+d 1.0
+Ka 0.63 0.81 0.07
+Kd 0.63 0.81 0.07
+Ns 2
+newmtl newColor56
+
+d 1.0
+Ka 0.9 0.74 0.0
+Kd 0.9 0.74 0.0
+Ns 2
+newmtl newColor57
+
+d 1.0
+Ka 1.0 0.06 0.0
+Kd 1.0 0.06 0.0
+Ns 2
+newmtl newColor58
+
+d 1.0
+Ka 0.39 0.83 0.13
+Kd 0.39 0.83 0.13
+Ns 2
+newmtl newColor59
+
+d 1.0
+Ka 0.93 0.67 0.0
+Kd 0.93 0.67 0.0
+Ns 2
+newmtl newColor60
+
+d 1.0
+Ka 0.9 0.72 0.0
+Kd 0.9 0.72 0.0
+Ns 2
+newmtl newColor61
+
+d 1.0
+Ka 0.97 0.53 0.0
+Kd 0.97 0.53 0.0
+Ns 2
+newmtl newColor62
+
+d 1.0
+Ka 0.5 0.85 0.09
+Kd 0.5 0.85 0.09
+Ns 2
+newmtl newColor63
+
+d 1.0
+Ka 0.73 0.83 0.03
+Kd 0.73 0.83 0.03
+Ns 2
+newmtl newColor64
+
+d 1.0
+Ka 0.97 0.39 0.0
+Kd 0.97 0.39 0.0
+Ns 2
+newmtl newColor65
+
+d 1.0
+Ka 0.32 0.84 0.15
+Kd 0.32 0.84 0.15
+Ns 2
+newmtl newColor66
+
+d 1.0
+Ka 0.22 0.81 0.19
+Kd 0.22 0.81 0.19
+Ns 2
+newmtl newColor67
+
+d 1.0
+Ka 0.62 0.83 0.06
+Kd 0.62 0.83 0.06
+Ns 2
+newmtl newColor68
+
+d 1.0
+Ka 0.41 0.86 0.12
+Kd 0.41 0.86 0.12
+Ns 2
+newmtl newColor69
+
+d 1.0
+Ka 0.97 0.5 0.0
+Kd 0.97 0.5 0.0
+Ns 2
+newmtl newColor70
+
+d 1.0
+Ka 0.79 0.75 0.03
+Kd 0.79 0.75 0.03
+Ns 2
+newmtl newColor71
+
+d 1.0
+Ka 0.24 0.81 0.18
+Kd 0.24 0.81 0.18
+Ns 2
+newmtl newColor72
+
+d 1.0
+Ka 0.69 0.81 0.04
+Kd 0.69 0.81 0.04
+Ns 2
+newmtl newColor73
+
+d 1.0
+Ka 0.44 0.87 0.1
+Kd 0.44 0.87 0.1
+Ns 2
+newmtl newColor74
+
+d 1.0
+Ka 0.28 0.83 0.16
+Kd 0.28 0.83 0.16
+Ns 2
+newmtl newColor75
+
+d 1.0
+Ka 0.42 0.87 0.11
+Kd 0.42 0.87 0.11
+Ns 2
+newmtl newColor76
+
+d 1.0
+Ka 0.26 0.82 0.17
+Kd 0.26 0.82 0.17
+Ns 2
+newmtl newColor77
+
+d 1.0
+Ka 0.64 0.85 0.05
+Kd 0.64 0.85 0.05
+Ns 2
+newmtl newColor78
+
+d 1.0
+Ka 0.74 0.79 0.04
+Kd 0.74 0.79 0.04
+Ns 2
+newmtl newColor79
+
+d 1.0
+Ka 0.65 0.84 0.05
+Kd 0.65 0.84 0.05
+Ns 2
+newmtl newColor80
+
+d 1.0
+Ka 0.33 0.84 0.15
+Kd 0.33 0.84 0.15
+Ns 2
+newmtl newColor81
+
+d 1.0
+Ka 0.87 0.64 0.01
+Kd 0.87 0.64 0.01
+Ns 2
+newmtl newColor82
+
+d 1.0
+Ka 0.47 0.88 0.09
+Kd 0.47 0.88 0.09
+Ns 2
+newmtl newColor83
+
+d 1.0
+Ka 0.84 0.69 0.01
+Kd 0.84 0.69 0.01
+Ns 2
+newmtl newColor84
+
+d 1.0
+Ka 0.77 0.85 0.01
+Kd 0.77 0.85 0.01
+Ns 2
+newmtl newColor85
+
+d 1.0
+Ka 0.66 0.91 0.03
+Kd 0.66 0.91 0.03
+Ns 2
+newmtl newColor86
+
+d 1.0
+Ka 0.96 0.48 0.0
+Kd 0.96 0.48 0.0
+Ns 2
+newmtl newColor87
+
+d 1.0
+Ka 0.94 0.6 0.0
+Kd 0.94 0.6 0.0
+Ns 2
+newmtl newColor88
+
+d 1.0
+Ka 0.76 0.84 0.02
+Kd 0.76 0.84 0.02
+Ns 2
+newmtl newColor89
+
+d 1.0
+Ka 0.88 0.78 0.0
+Kd 0.88 0.78 0.0
+Ns 2
+newmtl newColor90
+
+d 1.0
+Ka 0.97 0.46 0.0
+Kd 0.97 0.46 0.0
+Ns 2
+newmtl newColor91
+
+d 1.0
+Ka 0.95 0.62 0.0
+Kd 0.95 0.62 0.0
+Ns 2
+newmtl newColor92
+
+d 1.0
+Ka 1.0 0.3 0.0
+Kd 1.0 0.3 0.0
+Ns 2
+newmtl newColor93
+
+d 1.0
+Ka 0.98 0.56 0.0
+Kd 0.98 0.56 0.0
+Ns 2
+newmtl newColor94
+
+d 1.0
+Ka 1.0 0.04 0.0
+Kd 1.0 0.04 0.0
+Ns 2
+newmtl newColor95
+
+d 1.0
+Ka 1.0 0.0 0.0
+Kd 1.0 0.0 0.0
+Ns 2
+newmtl newColor96
+
+d 1.0
+Ka 1.0 0.17 0.0
+Kd 1.0 0.17 0.0
+Ns 2
+newmtl newColor97
+
+d 1.0
+Ka 0.82 0.78 0.02
+Kd 0.82 0.78 0.02
+Ns 2
+newmtl newColor98
+
+d 1.0
+Ka 0.96 0.65 0.0
+Kd 0.96 0.65 0.0
+Ns 2
+newmtl newColor99
+
+d 1.0
+Ka 0.99 0.53 0.0
+Kd 0.99 0.53 0.0
+Ns 2
+newmtl newColor100
+
+d 1.0
+Ka 1.0 0.27 0.0
+Kd 1.0 0.27 0.0
+Ns 2
+newmtl newColor101
+
+d 1.0
+Ka 0.99 0.49 0.0
+Kd 0.99 0.49 0.0
+Ns 2
+newmtl newColor102
+
+d 1.0
+Ka 1.0 0.35 0.0
+Kd 1.0 0.35 0.0
+Ns 2
+newmtl newColor103
+
+d 1.0
+Ka 1.0 0.03 0.0
+Kd 1.0 0.03 0.0
+Ns 2
+newmtl newColor104
+
+d 1.0
+Ka 1.0 0.4 0.0
+Kd 1.0 0.4 0.0
+Ns 2
+newmtl newColor105
+
+d 1.0
+Ka 0.99 0.57 0.0
+Kd 0.99 0.57 0.0
+Ns 2
+newmtl newColor106
+
+d 1.0
+Ka 1.0 0.56 0.0
+Kd 1.0 0.56 0.0
+Ns 2
+newmtl newColor107
+
+d 1.0
+Ka 1.0 0.51 0.0
+Kd 1.0 0.51 0.0
+Ns 2
+newmtl newColor108
+
+d 1.0
+Ka 0.95 0.69 0.0
+Kd 0.95 0.69 0.0
+Ns 2
+newmtl newColor109
+
+d 1.0
+Ka 0.75 0.85 0.02
+Kd 0.75 0.85 0.02
+Ns 2
+newmtl newColor110
+
+d 1.0
+Ka 0.85 0.8 0.0
+Kd 0.85 0.8 0.0
+Ns 2
+newmtl newColor111
+
+d 1.0
+Ka 1.0 0.46 0.0
+Kd 1.0 0.46 0.0
+Ns 2
+newmtl newColor112
+
+d 1.0
+Ka 0.92 0.73 0.0
+Kd 0.92 0.73 0.0
+Ns 2
+newmtl newColor113
+
+d 1.0
+Ka 0.96 0.68 0.0
+Kd 0.96 0.68 0.0
+Ns 2
+newmtl newColor114
+
+d 1.0
+Ka 0.49 0.89 0.08
+Kd 0.49 0.89 0.08
+Ns 2
+newmtl newColor115
+
+d 1.0
+Ka 0.75 0.88 0.01
+Kd 0.75 0.88 0.01
+Ns 2
+newmtl newColor116
+
+d 1.0
+Ka 0.81 0.83 0.01
+Kd 0.81 0.83 0.01
+Ns 2
+newmtl newColor117
+
+d 1.0
+Ka 0.52 0.9 0.07
+Kd 0.52 0.9 0.07
+Ns 2
+newmtl newColor118
+
+d 1.0
+Ka 0.36 0.85 0.13
+Kd 0.36 0.85 0.13
+Ns 2
+newmtl newColor119
+
+d 1.0
+Ka 0.85 0.78 0.0
+Kd 0.85 0.78 0.0
+Ns 2
+newmtl newColor120
+
+d 1.0
+Ka 0.74 0.89 0.01
+Kd 0.74 0.89 0.01
+Ns 2
+newmtl newColor121
+
+d 1.0
+Ka 0.52 0.89 0.07
+Kd 0.52 0.89 0.07
+Ns 2
+newmtl newColor122
+
+d 1.0
+Ka 0.35 0.85 0.14
+Kd 0.35 0.85 0.14
+Ns 2
+newmtl newColor123
+
+d 1.0
+Ka 0.41 0.81 0.13
+Kd 0.41 0.81 0.13
+Ns 2
+newmtl newColor124
+
+d 1.0
+Ka 0.91 0.74 0.0
+Kd 0.91 0.74 0.0
+Ns 2
+newmtl newColor125
+
+d 1.0
+Ka 0.61 0.82 0.07
+Kd 0.61 0.82 0.07
+Ns 2
+newmtl newColor126
+
+d 1.0
+Ka 0.4 0.82 0.13
+Kd 0.4 0.82 0.13
+Ns 2
+newmtl newColor127
+
+d 1.0
+Ka 0.87 0.79 0.0
+Kd 0.87 0.79 0.0
+Ns 2
+newmtl newColor128
+
+d 1.0
+Ka 1.0 0.45 0.0
+Kd 1.0 0.45 0.0
+Ns 2
+newmtl newColor129
+
+d 1.0
+Ka 0.98 0.58 0.0
+Kd 0.98 0.58 0.0
+Ns 2
+newmtl newColor130
+
+d 1.0
+Ka 0.9 0.76 0.0
+Kd 0.9 0.76 0.0
+Ns 2
+newmtl newColor131
+
+d 1.0
+Ka 0.96 0.63 0.0
+Kd 0.96 0.63 0.0
+Ns 2
+newmtl newColor132
+
+d 1.0
+Ka 0.57 0.87 0.07
+Kd 0.57 0.87 0.07
+Ns 2
+newmtl newColor133
+
+d 1.0
+Ka 0.82 0.84 0.0
+Kd 0.82 0.84 0.0
+Ns 2
+newmtl newColor134
+
+d 1.0
+Ka 0.98 0.54 0.0
+Kd 0.98 0.54 0.0
+Ns 2
+newmtl newColor135
+
+d 1.0
+Ka 0.37 0.85 0.13
+Kd 0.37 0.85 0.13
+Ns 2
+newmtl newColor136
+
+d 1.0
+Ka 0.86 0.8 0.0
+Kd 0.86 0.8 0.0
+Ns 2
+newmtl newColor137
+
+d 1.0
+Ka 0.71 0.86 0.03
+Kd 0.71 0.86 0.03
+Ns 2
+newmtl newColor138
+
+d 1.0
+Ka 0.21 0.81 0.19
+Kd 0.21 0.81 0.19
+Ns 2
+newmtl newColor139
+
+d 1.0
+Ka 0.31 0.84 0.15
+Kd 0.31 0.84 0.15
+Ns 2
+newmtl newColor140
+
+d 1.0
+Ka 0.22 0.81 0.18
+Kd 0.22 0.81 0.18
+Ns 2
+newmtl newColor141
+
+d 1.0
+Ka 0.29 0.83 0.16
+Kd 0.29 0.83 0.16
+Ns 2
+newmtl newColor142
+
+d 1.0
+Ka 0.69 0.88 0.03
+Kd 0.69 0.88 0.03
+Ns 2
+newmtl newColor143
+
+d 1.0
+Ka 0.45 0.87 0.1
+Kd 0.45 0.87 0.1
+Ns 2
+newmtl newColor144
+
+d 1.0
+Ka 0.76 0.81 0.02
+Kd 0.76 0.81 0.02
+Ns 2
+newmtl newColor145
+
+d 1.0
+Ka 0.67 0.85 0.04
+Kd 0.67 0.85 0.04
+Ns 2
+newmtl newColor146
+
+d 1.0
+Ka 0.92 0.67 0.0
+Kd 0.92 0.67 0.0
+Ns 2
+newmtl newColor147
+
+d 1.0
+Ka 0.95 0.63 0.0
+Kd 0.95 0.63 0.0
+Ns 2
+newmtl newColor148
+
+d 1.0
+Ka 0.4 0.86 0.12
+Kd 0.4 0.86 0.12
+Ns 2
+newmtl newColor149
+
+d 1.0
+Ka 0.77 0.8 0.03
+Kd 0.77 0.8 0.03
+Ns 2
+newmtl newColor150
+
+d 1.0
+Ka 0.59 0.84 0.07
+Kd 0.59 0.84 0.07
+Ns 2
+newmtl newColor151
+
+d 1.0
+Ka 0.64 0.82 0.06
+Kd 0.64 0.82 0.06
+Ns 2
+newmtl newColor152
+
+d 1.0
+Ka 0.74 0.77 0.04
+Kd 0.74 0.77 0.04
+Ns 2
+newmtl newColor153
+
+d 1.0
+Ka 0.83 0.69 0.02
+Kd 0.83 0.69 0.02
+Ns 2
+newmtl newColor154
+
+d 1.0
+Ka 0.85 0.68 0.02
+Kd 0.85 0.68 0.02
+Ns 2
+newmtl newColor155
+
+d 1.0
+Ka 0.97 0.48 0.0
+Kd 0.97 0.48 0.0
+Ns 2
+newmtl newColor156
+
+d 1.0
+Ka 0.97 0.51 0.0
+Kd 0.97 0.51 0.0
+Ns 2
+newmtl newColor157
+
+d 1.0
+Ka 0.94 0.62 0.0
+Kd 0.94 0.62 0.0
+Ns 2
+newmtl newColor158
+
+d 1.0
+Ka 0.95 0.56 0.0
+Kd 0.95 0.56 0.0
+Ns 2
+newmtl newColor159
+
+d 1.0
+Ka 0.96 0.45 0.0
+Kd 0.96 0.45 0.0
+Ns 2
+newmtl newColor160
+
+d 1.0
+Ka 0.99 0.41 0.0
+Kd 0.99 0.41 0.0
+Ns 2
+newmtl newColor161
+
+d 1.0
+Ka 0.99 0.35 0.0
+Kd 0.99 0.35 0.0
+Ns 2
+newmtl newColor162
+
+d 1.0
+Ka 1.0 0.33 0.0
+Kd 1.0 0.33 0.0
+Ns 2
+newmtl newColor163
+
+d 1.0
+Ka 1.0 0.24 0.0
+Kd 1.0 0.24 0.0
+Ns 2
+newmtl newColor164
+
+d 1.0
+Ka 1.0 0.23 0.0
+Kd 1.0 0.23 0.0
+Ns 2
+newmtl newColor165
+
+d 1.0
+Ka 1.0 0.01 0.0
+Kd 1.0 0.01 0.0
+Ns 2
+newmtl newColor166
+
+d 1.0
+Ka 1.0 0.02 0.0
+Kd 1.0 0.02 0.0
+Ns 2
+newmtl newColor167
+
+d 1.0
+Ka 1.0 0.13 0.0
+Kd 1.0 0.13 0.0
+Ns 2
+newmtl newColor168
+
+d 1.0
+Ka 0.75 0.42 0.06
+Kd 0.75 0.42 0.06
+Ns 2
+newmtl newColor169
+
+d 1.0
+Ka 0.75 0.47 0.06
+Kd 0.75 0.47 0.06
+Ns 2
+newmtl newColor170
+
+d 1.0
+Ka 0.75 0.43 0.06
+Kd 0.75 0.43 0.06
+Ns 2
+newmtl newColor171
+
+d 1.0
+Ka 0.5 0.62 0.12
+Kd 0.5 0.62 0.12
+Ns 2
+newmtl newColor172
+
+d 1.0
+Ka 0.5 0.67 0.12
+Kd 0.5 0.67 0.12
+Ns 2
+newmtl newColor173
+
+d 1.0
+Ka 0.27 0.83 0.17
+Kd 0.27 0.83 0.17
+Ns 2
+newmtl newColor174
+
+d 1.0
+Ka 0.3 0.83 0.16
+Kd 0.3 0.83 0.16
+Ns 2
+newmtl newColor175
+
+d 1.0
+Ka 0.27 0.82 0.17
+Kd 0.27 0.82 0.17
+Ns 2
+newmtl newColor176
+
+d 1.0
+Ka 0.38 0.85 0.13
+Kd 0.38 0.85 0.13
+Ns 2
+newmtl newColor177
+
+d 1.0
+Ka 0.57 0.88 0.38
+Kd 0.57 0.88 0.38
+Ns 2
+newmtl newColor178
+
+d 1.0
+Ka 0.59 0.89 0.38
+Kd 0.59 0.89 0.38
+Ns 2
+newmtl newColor179
+
+d 1.0
+Ka 0.78 0.92 0.63
+Kd 0.78 0.92 0.63
+Ns 2
+newmtl newColor180
+
+d 1.0
+Ka 0.8 0.92 0.63
+Kd 0.8 0.92 0.63
+Ns 2
+newmtl newColor181
+
+d 1.0
+Ka 1.0 0.95 0.88
+Kd 1.0 0.95 0.88
+Ns 2
+newmtl newColor182
+
+d 1.0
+Ka 0.61 0.89 0.37
+Kd 0.61 0.89 0.37
+Ns 2
+newmtl newColor183
+
+d 1.0
+Ka 0.81 0.93 0.62
+Kd 0.81 0.93 0.62
+Ns 2
+newmtl newColor184
+
+d 1.0
+Ka 0.34 0.84 0.14
+Kd 0.34 0.84 0.14
+Ns 2
+newmtl newColor185
+
+d 1.0
+Ka 0.35 0.84 0.14
+Kd 0.35 0.84 0.14
+Ns 2
+newmtl newColor186
+
+d 1.0
+Ka 0.63 0.9 0.36
+Kd 0.63 0.9 0.36
+Ns 2
+newmtl newColor187
+
+d 1.0
+Ka 0.45 0.88 0.1
+Kd 0.45 0.88 0.1
+Ns 2
+newmtl newColor188
+
+d 1.0
+Ka 0.48 0.88 0.09
+Kd 0.48 0.88 0.09
+Ns 2
+newmtl newColor189
+
+d 1.0
+Ka 0.46 0.88 0.1
+Kd 0.46 0.88 0.1
+Ns 2
+newmtl newColor190
+
+d 1.0
+Ka 0.43 0.87 0.11
+Kd 0.43 0.87 0.11
+Ns 2
+newmtl newColor191
+
+d 1.0
+Ka 0.38 0.86 0.13
+Kd 0.38 0.86 0.13
+Ns 2
+newmtl newColor192
+
+d 1.0
+Ka 0.47 0.88 0.1
+Kd 0.47 0.88 0.1
+Ns 2
+newmtl newColor193
+
+d 1.0
+Ka 0.41 0.87 0.11
+Kd 0.41 0.87 0.11
+Ns 2
+newmtl newColor194
+
+d 1.0
+Ka 0.39 0.86 0.12
+Kd 0.39 0.86 0.12
+Ns 2
+newmtl newColor195
+
+d 1.0
+Ka 0.44 0.87 0.11
+Kd 0.44 0.87 0.11
+Ns 2
+newmtl newColor196
+
+d 1.0
+Ka 0.75 0.39 0.06
+Kd 0.75 0.39 0.06
+Ns 2
+newmtl newColor197
+
+d 1.0
+Ka 0.25 0.82 0.18
+Kd 0.25 0.82 0.18
+Ns 2
+newmtl newColor198
+
+d 1.0
+Ka 0.83 0.93 0.61
+Kd 0.83 0.93 0.61
+Ns 2
+newmtl newColor199
+
+d 1.0
+Ka 0.67 0.91 0.35
+Kd 0.67 0.91 0.35
+Ns 2
+newmtl newColor200
+
+d 1.0
+Ka 0.5 0.89 0.08
+Kd 0.5 0.89 0.08
+Ns 2
+newmtl newColor201
+
+d 1.0
+Ka 0.82 0.93 0.62
+Kd 0.82 0.93 0.62
+Ns 2
+newmtl newColor202
+
+d 1.0
+Ka 0.65 0.9 0.35
+Kd 0.65 0.9 0.35
+Ns 2
+newmtl newColor203
+
+d 1.0
+Ka 0.49 0.88 0.09
+Kd 0.49 0.88 0.09
+Ns 2
+newmtl newColor204
+
+d 1.0
+Ka 0.49 0.89 0.09
+Kd 0.49 0.89 0.09
+Ns 2
+newmtl newColor205
+
+d 1.0
+Ka 0.49 0.88 0.08
+Kd 0.49 0.88 0.08
+Ns 2
+newmtl newColor206
+
+d 1.0
+Ka 0.66 0.91 0.35
+Kd 0.66 0.91 0.35
+Ns 2
+newmtl newColor207
+
+d 1.0
+Ka 0.55 0.88 0.39
+Kd 0.55 0.88 0.39
+Ns 2
+newmtl newColor208
+
+d 1.0
+Ka 0.75 0.53 0.06
+Kd 0.75 0.53 0.06
+Ns 2
+newmtl newColor209
+
+d 1.0
+Ka 0.73 0.63 0.06
+Kd 0.73 0.63 0.06
+Ns 2
+newmtl newColor210
+
+d 1.0
+Ka 0.48 0.77 0.12
+Kd 0.48 0.77 0.12
+Ns 2
+newmtl newColor211
+
+d 1.0
+Ka 0.24 0.82 0.18
+Kd 0.24 0.82 0.18
+Ns 2
+newmtl newColor212
+
+d 1.0
+Ka 0.28 0.83 0.17
+Kd 0.28 0.83 0.17
+Ns 2
+newmtl newColor213
+
+d 1.0
+Ka 0.52 0.87 0.4
+Kd 0.52 0.87 0.4
+Ns 2
+newmtl newColor214
+
+d 1.0
+Ka 0.75 0.91 0.64
+Kd 0.75 0.91 0.64
+Ns 2
+newmtl newColor215
+
+d 1.0
+Ka 0.49 0.86 0.41
+Kd 0.49 0.86 0.41
+Ns 2
+newmtl newColor216
+
+d 1.0
+Ka 0.23 0.81 0.18
+Kd 0.23 0.81 0.18
+Ns 2
+newmtl newColor217
+
+d 1.0
+Ka 0.74 0.9 0.65
+Kd 0.74 0.9 0.65
+Ns 2
+newmtl newColor218
+
+d 1.0
+Ka 0.73 0.9 0.65
+Kd 0.73 0.9 0.65
+Ns 2
+newmtl newColor219
+
+d 1.0
+Ka 0.47 0.85 0.42
+Kd 0.47 0.85 0.42
+Ns 2
+newmtl newColor220
+
+d 1.0
+Ka 0.23 0.81 0.19
+Kd 0.23 0.81 0.19
+Ns 2
+newmtl newColor221
+
+d 1.0
+Ka 0.47 0.77 0.12
+Kd 0.47 0.77 0.12
+Ns 2
+newmtl newColor222
+
+d 1.0
+Ka 0.68 0.76 0.06
+Kd 0.68 0.76 0.06
+Ns 2
+newmtl newColor223
+
+d 1.0
+Ka 0.43 0.8 0.13
+Kd 0.43 0.8 0.13
+Ns 2
+newmtl newColor224
+
+d 1.0
+Ka 0.2 0.81 0.19
+Kd 0.2 0.81 0.19
+Ns 2
+newmtl newColor225
+
+d 1.0
+Ka 0.6 0.84 0.06
+Kd 0.6 0.84 0.06
+Ns 2
+newmtl newColor226
+
+d 1.0
+Ka 0.51 0.89 0.08
+Kd 0.51 0.89 0.08
+Ns 2
+newmtl newColor227
+
+d 1.0
+Ka 0.96 0.59 0.0
+Kd 0.96 0.59 0.0
+Ns 2
+newmtl newColor228
+
+d 1.0
+Ka 0.91 0.72 0.0
+Kd 0.91 0.72 0.0
+Ns 2
+newmtl newColor229
+
+d 1.0
+Ka 0.73 0.89 0.01
+Kd 0.73 0.89 0.01
+Ns 2
+newmtl newColor230
+
+d 1.0
+Ka 0.95 0.61 0.0
+Kd 0.95 0.61 0.0
+Ns 2
+newmtl newColor231
+
+d 1.0
+Ka 1.0 0.22 0.0
+Kd 1.0 0.22 0.0
+Ns 2
+newmtl newColor232
+
+d 1.0
+Ka 0.88 0.77 0.0
+Kd 0.88 0.77 0.0
+Ns 2
+newmtl newColor233
+
+d 1.0
+Ka 0.79 0.88 0.0
+Kd 0.79 0.88 0.0
+Ns 2
+newmtl newColor234
+
+d 1.0
+Ka 0.61 0.92 0.04
+Kd 0.61 0.92 0.04
+Ns 2
+newmtl newColor235
+
+d 1.0
+Ka 0.67 0.91 0.02
+Kd 0.67 0.91 0.02
+Ns 2
+newmtl newColor236
+
+d 1.0
+Ka 0.51 0.87 0.41
+Kd 0.51 0.87 0.41
+Ns 2
+newmtl newColor237
+
+d 1.0
+Ka 0.62 0.9 0.04
+Kd 0.62 0.9 0.04
+Ns 2
+newmtl newColor238
+
+d 1.0
+Ka 0.88 0.76 0.0
+Kd 0.88 0.76 0.0
+Ns 2
+newmtl newColor239
+
+d 1.0
+Ka 0.96 0.57 0.0
+Kd 0.96 0.57 0.0
+Ns 2
+newmtl newColor240
+
+d 1.0
+Ka 0.74 0.86 0.02
+Kd 0.74 0.86 0.02
+Ns 2
+newmtl newColor241
+
+d 1.0
+Ka 0.9 0.64 0.0
+Kd 0.9 0.64 0.0
+Ns 2
+newmtl newColor242
+
+d 1.0
+Ka 0.59 0.86 0.06
+Kd 0.59 0.86 0.06
+Ns 2
+newmtl newColor243
+
+d 1.0
+Ka 0.65 0.86 0.04
+Kd 0.65 0.86 0.04
+Ns 2
+newmtl newColor244
+
+d 1.0
+Ka 0.86 0.7 0.0
+Kd 0.86 0.7 0.0
+Ns 2
+newmtl newColor245
+
+d 1.0
+Ka 0.94 0.5 0.0
+Kd 0.94 0.5 0.0
+Ns 2
+newmtl newColor246
+
+d 1.0
+Ka 0.31 0.83 0.15
+Kd 0.31 0.83 0.15
+Ns 2
+newmtl newColor247
+
+d 1.0
+Ka 0.53 0.88 0.07
+Kd 0.53 0.88 0.07
+Ns 2
+newmtl newColor248
+
+d 1.0
+Ka 0.72 0.84 0.03
+Kd 0.72 0.84 0.03
+Ns 2
+newmtl newColor249
+
+d 1.0
+Ka 0.89 0.67 0.0
+Kd 0.89 0.67 0.0
+Ns 2
+newmtl newColor250
+
+d 1.0
+Ka 0.97 0.44 0.0
+Kd 0.97 0.44 0.0
+Ns 2
+newmtl newColor251
+
+d 1.0
+Ka 0.97 0.45 0.0
+Kd 0.97 0.45 0.0
+Ns 2
+newmtl newColor252
+
+d 1.0
+Ka 0.9 0.67 0.0
+Kd 0.9 0.67 0.0
+Ns 2
+newmtl newColor253
+
+d 1.0
+Ka 0.93 0.58 0.0
+Kd 0.93 0.58 0.0
+Ns 2
+newmtl newColor254
+
+d 1.0
+Ka 0.63 0.84 0.06
+Kd 0.63 0.84 0.06
+Ns 2
+newmtl newColor255
+
+d 1.0
+Ka 0.99 0.52 0.0
+Kd 0.99 0.52 0.0
+Ns 2
+newmtl newColor256
+
+d 1.0
+Ka 0.89 0.7 0.0
+Kd 0.89 0.7 0.0
+Ns 2
+newmtl newColor257
+
+d 1.0
+Ka 0.95 0.65 0.0
+Kd 0.95 0.65 0.0
+Ns 2
+newmtl newColor258
+
+d 1.0
+Ka 0.47 0.86 0.42
+Kd 0.47 0.86 0.42
+Ns 2
+newmtl newColor259
+
+d 1.0
+Ka 0.62 0.82 0.07
+Kd 0.62 0.82 0.07
+Ns 2
+newmtl newColor260
+
+d 1.0
+Ka 0.55 0.87 0.07
+Kd 0.55 0.87 0.07
+Ns 2
+newmtl newColor261
+
+d 1.0
+Ka 0.45 0.84 0.11
+Kd 0.45 0.84 0.11
+Ns 2
+newmtl newColor262
+
+d 1.0
+Ka 0.46 0.85 0.42
+Kd 0.46 0.85 0.42
+Ns 2
+newmtl newColor263
+
+d 1.0
+Ka 0.2 0.8 0.19
+Kd 0.2 0.8 0.19
+Ns 2
+newmtl newColor264
+
+d 1.0
+Ka 0.46 0.77 0.13
+Kd 0.46 0.77 0.13
+Ns 2
+newmtl newColor265
+
+d 1.0
+Ka 0.73 0.7 0.06
+Kd 0.73 0.7 0.06
+Ns 2
+newmtl newColor266
+
+d 1.0
+Ka 0.53 0.87 0.4
+Kd 0.53 0.87 0.4
+Ns 2
+newmtl newColor267
+
+d 1.0
+Ka 0.74 0.6 0.06
+Kd 0.74 0.6 0.06
+Ns 2
+newmtl newColor268
+
+d 1.0
+Ka 0.49 0.74 0.12
+Kd 0.49 0.74 0.12
+Ns 2
+newmtl newColor269
+
+d 1.0
+Ka 0.74 0.54 0.06
+Kd 0.74 0.54 0.06
+Ns 2
+newmtl newColor270
+
+d 1.0
+Ka 0.49 0.68 0.12
+Kd 0.49 0.68 0.12
+Ns 2
+newmtl newColor271
+
+d 1.0
+Ka 1.0 0.38 0.0
+Kd 1.0 0.38 0.0
+Ns 2
+newmtl newColor272
+
+d 1.0
+Ka 0.75 0.55 0.06
+Kd 0.75 0.55 0.06
+Ns 2
+newmtl newColor273
+
+d 1.0
+Ka 0.51 0.69 0.12
+Kd 0.51 0.69 0.12
+Ns 2
+newmtl newColor274
+
+d 1.0
+Ka 0.76 0.52 0.06
+Kd 0.76 0.52 0.06
+Ns 2
+newmtl newColor275
+
+d 1.0
+Ka 0.51 0.69 0.11
+Kd 0.51 0.69 0.11
+Ns 2
+newmtl newColor276
+
+d 1.0
+Ka 0.76 0.48 0.06
+Kd 0.76 0.48 0.06
+Ns 2
+newmtl newColor277
+
+d 1.0
+Ka 0.51 0.66 0.11
+Kd 0.51 0.66 0.11
+Ns 2
+newmtl newColor278
+
+d 1.0
+Ka 0.36 0.85 0.14
+Kd 0.36 0.85 0.14
+Ns 2
+newmtl newColor279
+
+d 1.0
+Ka 0.51 0.66 0.12
+Kd 0.51 0.66 0.12
+Ns 2
+newmtl newColor280
+
+d 1.0
+Ka 0.75 0.46 0.06
+Kd 0.75 0.46 0.06
+Ns 2
+newmtl newColor281
+
+d 1.0
+Ka 0.75 0.4 0.06
+Kd 0.75 0.4 0.06
+Ns 2
+newmtl newColor282
+
+d 1.0
+Ka 0.75 0.35 0.06
+Kd 0.75 0.35 0.06
+Ns 2
+newmtl newColor283
+
+d 1.0
+Ka 0.49 0.58 0.12
+Kd 0.49 0.58 0.12
+Ns 2
+newmtl newColor284
+
+d 1.0
+Ka 0.74 0.34 0.06
+Kd 0.74 0.34 0.06
+Ns 2
+newmtl newColor285
+
+d 1.0
+Ka 0.75 0.34 0.06
+Kd 0.75 0.34 0.06
+Ns 2
+newmtl newColor286
+
+d 1.0
+Ka 0.74 0.33 0.06
+Kd 0.74 0.33 0.06
+Ns 2
+newmtl newColor287
+
+d 1.0
+Ka 0.75 0.37 0.06
+Kd 0.75 0.37 0.06
+Ns 2
+newmtl newColor288
+
+d 1.0
+Ka 0.5 0.61 0.12
+Kd 0.5 0.61 0.12
+Ns 2
+newmtl newColor289
+
+d 1.0
+Ka 0.25 0.82 0.17
+Kd 0.25 0.82 0.17
+Ns 2
+newmtl newColor290
+
+d 1.0
+Ka 0.39 0.86 0.13
+Kd 0.39 0.86 0.13
+Ns 2
+newmtl newColor291
+
+d 1.0
+Ka 0.33 0.84 0.14
+Kd 0.33 0.84 0.14
+Ns 2
+newmtl newColor292
+
+d 1.0
+Ka 0.34 0.85 0.14
+Kd 0.34 0.85 0.14
+Ns 2
+newmtl newColor293
+
+d 1.0
+Ka 0.41 0.87 0.12
+Kd 0.41 0.87 0.12
+Ns 2
+newmtl newColor294
+
+d 1.0
+Ka 0.64 0.9 0.36
+Kd 0.64 0.9 0.36
+Ns 2
+newmtl newColor295
+
+d 1.0
+Ka 0.65 0.91 0.35
+Kd 0.65 0.91 0.35
+Ns 2
+newmtl newColor296
+
+d 1.0
+Ka 0.83 0.93 0.62
+Kd 0.83 0.93 0.62
+Ns 2

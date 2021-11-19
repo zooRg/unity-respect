@@ -8,108 +8,69 @@
 8
 9    <uses-sdk
 10        android:minSdkVersion="19"
-10-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml
+10-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml
 11        android:targetSdkVersion="29" />
-11-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml
+11-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml
 12
 13    <uses-feature android:glEsVersion="0x00030000" />
-13-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:18:3-52
-13-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:18:17-49
-14    <uses-feature
-14-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:19:3-91
-15        android:name="android.hardware.vulkan.version"
-15-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:19:17-63
-16        android:required="false" />
-16-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:19:64-88
-17
-18    <uses-permission android:name="android.permission.INTERNET" />
-18-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:20:3-65
-18-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:20:20-62
-19
+13-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:12:3-52
+13-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:12:17-49
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:13:3-65
+15-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:13:20-62
+16
+17    <uses-feature
+17-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:14:3-88
+18        android:name="android.hardware.touchscreen"
+18-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:14:17-60
+19        android:required="false" />
+19-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:14:61-85
 20    <uses-feature
-20-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:21:3-88
-21        android:name="android.hardware.touchscreen"
-21-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:21:17-60
+20-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:15:3-99
+21        android:name="android.hardware.touchscreen.multitouch"
+21-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:15:17-71
 22        android:required="false" />
-22-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:21:61-85
+22-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:15:72-96
 23    <uses-feature
-23-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:22:3-99
-24        android:name="android.hardware.touchscreen.multitouch"
-24-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:22:17-71
+23-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:16:3-108
+24        android:name="android.hardware.touchscreen.multitouch.distinct"
+24-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:16:17-80
 25        android:required="false" />
-25-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:22:72-96
-26    <uses-feature
-26-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:23:3-108
-27        android:name="android.hardware.touchscreen.multitouch.distinct"
-27-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:23:17-80
-28        android:required="false" />
-28-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:23:81-105
-29
-30    <application>
-30-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:4:3-17:17
-31        <activity
-31-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:5:5-12:16
-32            android:name="com.unity3d.player.UnityPlayerActivity"
-32-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:5:15-68
-33            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-33-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:5:182-363
-34            android:hardwareAccelerated="false"
-34-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:5:364-399
-35            android:launchMode="singleTask"
-35-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:5:150-181
-36            android:screenOrientation="fullSensor"
-36-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:5:111-149
-37            android:theme="@style/UnityThemeSelector" >
-37-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:5:69-110
-38            <intent-filter>
-38-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:6:7-9:23
-39                <action android:name="android.intent.action.MAIN" />
-39-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:7:9-61
-39-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:7:17-58
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:8:9-69
-41-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:8:19-66
-42            </intent-filter>
-43
-44            <meta-data
-44-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:10:7-82
-45                android:name="unityplayer.UnityActivity"
-45-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:10:18-58
-46                android:value="true" />
-46-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:10:59-79
-47            <meta-data
-47-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:11:7-78
-48                android:name="android.notch_support"
-48-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:11:18-54
-49                android:value="true" />
-49-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:11:55-75
-50        </activity>
-51
-52        <meta-data
-52-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:13:5-69
-53            android:name="unity.splash-mode"
-53-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:13:16-48
-54            android:value="0" />
-54-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:13:49-66
-55        <meta-data
-55-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:14:5-74
-56            android:name="unity.splash-enable"
-56-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:14:16-50
-57            android:value="True" />
-57-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:14:51-71
-58        <meta-data
-58-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:15:5-81
-59            android:name="notch.config"
-59-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:15:16-43
-60            android:value="portrait|landscape" />
-60-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:15:44-78
-61        <meta-data
-61-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:16:5-101
-62            android:name="unity.build-id"
-62-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:16:16-45
-63            android:value="bf5f7bae-5753-48a3-ba31-008d33f5f8f0" />
-63-->/Users/zoorg/Documents/Project/fittin/respect-unity/android/unityLibrary/src/main/AndroidManifest.xml:16:46-98
-64    </application>
-65
-66</manifest>
+25-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:16:81-105
+26
+27    <application>
+27-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:4:3-11:17
+28        <meta-data
+28-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:6:5-69
+29            android:name="unity.splash-mode"
+29-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:6:16-48
+30            android:value="0" />
+30-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:6:49-66
+31        <meta-data
+31-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:7:5-74
+32            android:name="unity.splash-enable"
+32-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:7:16-50
+33            android:value="True" />
+33-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:7:51-71
+34        <meta-data
+34-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:8:5-84
+35            android:name="unity.allow-resizable-window"
+35-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:8:16-59
+36            android:value="False" />
+36-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:8:60-81
+37        <meta-data
+37-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:9:5-81
+38            android:name="notch.config"
+38-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:9:16-43
+39            android:value="portrait|landscape" />
+39-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:9:44-78
+40        <meta-data
+40-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:10:5-101
+41            android:name="unity.build-id"
+41-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:10:16-45
+42            android:value="d76bb81d-15d0-438b-aaef-838f3b557876" />
+42-->G:\gitLab\fittin\unity-respect\android\unityLibrary\src\main\AndroidManifest.xml:10:46-98
+43    </application>
+44
+45</manifest>

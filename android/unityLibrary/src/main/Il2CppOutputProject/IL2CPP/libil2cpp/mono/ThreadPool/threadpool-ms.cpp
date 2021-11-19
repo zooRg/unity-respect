@@ -33,6 +33,7 @@
 #include "gc/GarbageCollector.h"
 #include "gc/GCHandle.h"
 #include "gc/WriteBarrier.h"
+#include "icalls/mscorlib/System.Threading/ThreadPool.h"
 #include "icalls/mscorlib/System.Runtime.Remoting.Messaging/MonoMethodMessage.h"
 #include "mono/ThreadPool/threadpool-ms.h"
 #include "mono/ThreadPool/threadpool-ms-io.h"
@@ -56,6 +57,7 @@
 #include "vm/Runtime.h"
 #include "vm/String.h"
 #include "vm/Thread.h"
+#include "vm/ThreadPool.h"
 #include "vm/WaitHandle.h"
 
 #ifndef CLAMP

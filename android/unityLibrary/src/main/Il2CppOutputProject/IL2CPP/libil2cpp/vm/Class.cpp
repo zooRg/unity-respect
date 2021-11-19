@@ -252,7 +252,6 @@ namespace vm
         klass->thread_static_fields_size = -1;
         klass->native_size = -1;
         klass->size_inited = true;
-        klass->typeHierarchyDepth = 1;
 
         s_GenericParameterMap.insert(std::make_pair(param, klass));
 
@@ -557,10 +556,10 @@ namespace vm
     {
         int32_t size;
 
-        if (!klass->init_pending)
-            Init(klass);
+        if (!klass->size_init_pending)
+            SetupFields(klass);
 
-        IL2CPP_ASSERT(klass->byval_arg.valuetype);
+        IL2CPP_ASSERT(klass->valuetype);
 
         if (!klass->size_inited)
         {
@@ -620,7 +619,7 @@ namespace vm
                 if (oklass->rank != klass->rank)
                     return false;
 
-                if (oklass->castClass->byval_arg.valuetype)
+                if (oklass->castClass->valuetype)
                 {
                     // Full array covariance is defined only for reference types.
                     // For value types, array element reduced types must match
@@ -774,7 +773,7 @@ namespace vm
 
     bool Class::IsValuetype(const Il2CppClass *klass)
     {
-        return klass->byval_arg.valuetype;
+        return klass->valuetype;
     }
 
     bool Class::IsBlittable(const Il2CppClass *klass)
@@ -891,7 +890,7 @@ namespace vm
             klass->has_references |= klass->parent->has_references;
             instanceSize = klass->parent->instance_size;
             actualSize = klass->parent->actualSize;
-            if (klass->byval_arg.valuetype)
+            if (klass->valuetype)
                 klass->minimumAlignment = 1;
             else
                 klass->minimumAlignment = klass->parent->minimumAlignment;
@@ -959,7 +958,7 @@ namespace vm
             instanceSize = layoutData.classSize;
 
             // This is a value type with no instance fields, but at least one static field.
-            if (klass->byval_arg.valuetype && fieldTypes.size() == 0)
+            if (klass->valuetype && fieldTypes.size() == 0)
             {
                 instanceSize = IL2CPP_SIZEOF_STRUCT_WITH_NO_INSTANCE_FIELDS + sizeof(Il2CppObject);
                 klass->actualSize = IL2CPP_SIZEOF_STRUCT_WITH_NO_INSTANCE_FIELDS + sizeof(Il2CppObject);
@@ -1050,6 +1049,8 @@ namespace vm
         if (klass->size_inited)
             return;
 
+        klass->size_init_pending = true;
+
         if (klass->parent && !klass->parent->size_inited)
             SetupFieldsLocked(klass->parent, lock);
 
@@ -1067,6 +1068,8 @@ namespace vm
 
         if (!Class::IsGeneric(klass))
             LayoutFieldsLocked(klass, lock);
+
+        klass->size_init_pending = false;
 
         klass->size_inited = true;
     }
@@ -1116,7 +1119,7 @@ namespace vm
 
                 newMethod->name = methodInfo.name;
 
-                if (klass->byval_arg.valuetype)
+                if (klass->valuetype)
                 {
                     Il2CppMethodPointer adjustorThunk = MetadataCache::GetAdjustorThunk(klass->image, methodInfo.token);
                     if (adjustorThunk != NULL)
@@ -1127,10 +1130,8 @@ namespace vm
                 if (newMethod->methodPointer == NULL)
                     newMethod->methodPointer = MetadataCache::GetMethodPointer(klass->image, methodInfo.token);
 
-                if (newMethod->methodPointer)
-                    newMethod->invoker_method = MetadataCache::GetMethodInvoker(klass->image, methodInfo.token);
-                else
-                    newMethod->invoker_method = Runtime::GetMissingMethodInvoker();
+                newMethod->invoker_method = MetadataCache::GetMethodInvoker(klass->image, methodInfo.token);
+
                 newMethod->klass = klass;
                 newMethod->return_type = methodInfo.return_type;
 
@@ -1502,7 +1503,7 @@ namespace vm
         return true;
     }
 
-    void Class::Init(Il2CppClass *klass)
+    bool Class::Init(Il2CppClass *klass)
     {
         IL2CPP_ASSERT(klass);
 
@@ -1511,6 +1512,8 @@ namespace vm
             il2cpp::os::FastAutoLock lock(&g_MetadataLock);
             InitLocked(klass, lock);
         }
+
+        return true;
     }
 
     void Class::UpdateInitializedAndNoError(Il2CppClass *klass)
@@ -1810,7 +1813,6 @@ namespace vm
         pointerClass->this_arg.byref = true;
 
         pointerClass->parent = NULL;
-        pointerClass->typeHierarchyDepth = 1;
         pointerClass->castClass = pointerClass->element_class = elementClass;
 
         MetadataCache::AddPointerType(elementClass, pointerClass);
@@ -1820,14 +1822,15 @@ namespace vm
 
     bool Class::HasReferences(Il2CppClass *klass)
     {
-        if (klass->init_pending)
+        if (klass->size_init_pending)
         {
+            abort();
             /* Be conservative */
             return true;
         }
         else
         {
-            Init(klass);
+            SetupFields(klass);
 
             return klass->has_references;
         }

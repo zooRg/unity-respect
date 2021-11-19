@@ -4323,9 +4323,7 @@ thread_end (MonoProfiler *prof, uintptr_t tid)
 			/* FIXME: Maybe we need to free this instead, but some code can't handle that */
 			tls->terminated = TRUE;
 			/* Can't remove from tid_to_thread, as that would defeat the check in thread_start () */
-#ifndef RUNTIME_IL2CPP
 			MONO_GC_UNREGISTER_ROOT (tls->thread);
-#endif // !RUNTIME_IL2CPP
 			mono_gc_wbarrier_generic_store((void**)&tls->thread, NULL);
 		}
 	}
@@ -7862,7 +7860,7 @@ decode_value_internal (MonoType *t, int type, MonoDomain *domain, guint8 *addr, 
 				return ERR_INVALID_ARGUMENT;
 			}
 		} else if ((t->type == MONO_TYPE_GENERICINST) && 
-					mono_class_is_valuetype(t->data.generic_class->cached_class) &&
+					t->data.generic_class->cached_class->valuetype &&
 					t->data.generic_class->cached_class->enumtype){
 			err = decode_vtype (t, domain, addr, buf, &buf, limit);
 			if (err != ERR_NONE)

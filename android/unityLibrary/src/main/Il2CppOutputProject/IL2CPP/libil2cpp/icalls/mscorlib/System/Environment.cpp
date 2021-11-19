@@ -237,8 +237,8 @@ namespace System
 #if IL2CPP_TINY_DEBUGGER
     Il2CppString* Environment::GetStackTrace_internal()
     {
-        const char* stackTrace = vm::StackTrace::GetStackTrace();
-        return vm::String::NewLen(stackTrace, (uint32_t)strlen(stackTrace));
+        std::string stackTrace = vm::StackTrace::GetStackTrace();
+        return vm::String::NewLen(stackTrace.c_str(), (uint32_t)stackTrace.length());
     }
 
     void Environment::FailFast_internal(Il2CppString* message)
