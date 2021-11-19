@@ -46,3 +46,5 @@ app.*.map.json
 /android/app/release
 /android/unityLibrary/build
 /android/unityLibrary/build/
+/.fvm/
+/.fvm
